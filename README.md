@@ -1,3 +1,5 @@
+Project for [CSS for JavaScript developers](https://css-for-js.dev/) course.
+
 # New Grid Times — Module 7 workshop
 
 In this workshop, our goal is to build a sophisticated, responsive grid layout for an online newspaper, the New Grid Times:
