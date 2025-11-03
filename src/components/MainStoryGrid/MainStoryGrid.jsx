@@ -55,8 +55,6 @@ const Wrapper = styled.div`
   gap: 48px;
   margin-bottom: 48px;
 
-  /* EXERCISE 3 */
-
   @media ${QUERIES.tabletAndUp} {
     grid-template-areas:
       "main-story secondary-stories"
@@ -70,7 +68,7 @@ const Wrapper = styled.div`
     grid-template-areas:
       "main-story secondary-stories opinion-stories"
       "main-story advertisement advertisement";
-    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-columns: 5fr 4fr 4fr;
   }
 `;
 
@@ -126,6 +124,10 @@ const OpinionStoryWrapper = styled(VerticalStoryWrapper)`
 
 const OpinionSection = styled.section`
   grid-area: opinion-stories;
+
+  @media ${QUERIES.laptopAndUp} {
+    margin-block-start: -8px;
+  }
 `;
 
 const AdvertisementSection = styled.section`
